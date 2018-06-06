@@ -1,18 +1,25 @@
-# node-copy-files
+<h1 algin="center">
+  node-copy-files
+</h1>
 
-> 一个基于 Node 的复制目录，并对结果进行操作的库。
+> A library based on the Node's replication directory and operating on the results.
+一个基于 Node 的复制目录，并对结果进行操作的库。
 
-## 使用
+## Use Examples
 
 ```javascript
-// 下载 copy-files 库
+// dwonload copy-files 下载 copy-files 库
 
-// 使用
+// use
 import copyFiles from 'node-copy-files'
 
-copyFiles('复制目录或文件', '目标目录或文件', function (result, input, output) {
-  // 对读取的文件进行操作
-  return result
+// copy file 复制文件
+copyFiles('input', 'output')
+
+// copy file and operating on the results  复制文件并操作结果
+copyFiles('input', 'output', (res, input, output) => {
+  // operating result 操作文件
+  return res
 })
 ```
 
