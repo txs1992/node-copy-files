@@ -8,7 +8,7 @@
 ## Use Examples
 
 ```javascript
-// dwonload copy-files 下载 copy-files 库
+// download copy-files 下载 copy-files 库
 
 // use
 import copyFiles from 'node-copy-files'
