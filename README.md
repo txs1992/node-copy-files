@@ -1,4 +1,4 @@
-<h1 algin="center">
+<h1 align="center">
   node-copy-files
 </h1>
 
