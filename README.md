@@ -10,7 +10,7 @@
 // 使用
 import copyFiles from 'node-copy-files'
 
-copyFiles('复制目录或文件', '目标目录或文件', function (input, output, result) {
+copyFiles('复制目录或文件', '目标目录或文件', function (result, input, output) {
   // 对读取的文件进行操作
   return result
 })
