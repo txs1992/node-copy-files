@@ -9,6 +9,7 @@
 
 ```javascript
 // download copy-files 下载 copy-files 库
+npm install -d node-copy-files
 
 // use
 import copyFiles from 'node-copy-files'
